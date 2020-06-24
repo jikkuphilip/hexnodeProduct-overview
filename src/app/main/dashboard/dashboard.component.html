@@ -1,0 +1,200 @@
+<div class="container">
+    <div class="row">
+<div  class="col-lg-1"></div>
+<div class="col-lg-9"><h3>Overview</h3></div>
+<div class="col-lg-2  pull-right">
+    <button class=" button btn-primary" >Add Funds</button>
+</div>
+</div>
+
+<div  class="row">
+    <div class="col-lg-3  card">
+        <div class="row">
+            <div class="col-lg-6" style="margin-top: 10px;">
+<h5>Statistics</h5>
+</div>
+<div class="col-lg-6 pull-right" style="margin-top: 10px;">
+<select class="form-control">
+    <option value="" selected>Last 6 Months</option>
+</select>
+</div>
+</div>
+<apx-chart
+[series]="chartOptions.series"
+[chart]="chartOptions.chart"
+[xaxis]="chartOptions.xaxis"
+[tooltip]="chartOptions.tooltip"
+[dataLabels]="chartOptions.dataLabels"
+[stroke]="chartOptions.stroke"
+></apx-chart>
+    </div>
+
+
+    <div class="col-lg-3  card2">
+        <div class="row">
+            <div class="col-lg-12" style="margin-top: 10px;">
+<h5>Sales Distribution</h5>
+</div>
+</div>
+<div class="row">
+<div id="chart1">
+    <apx-chart [series]="chartOptions1.series" [chart]="chartOptions1.chart" [xaxis]="chartOptions1.xaxis"
+      [stroke]="chartOptions1.stroke" [tooltip]="chartOptions1.tooltip" [dataLabels]="chartOptions1.dataLabels">
+    </apx-chart>
+    <hr>
+  </div>
+</div>
+
+
+
+<div class="row ">
+    <div class="col-lg-6 col-md-6 col-sm-6 ">
+      <p class="ptag"></p><span class="country nowrap">France <span class="view">4260 Sale</span> </span>
+    </div>
+    <div  class="col-lg-6 col-md-6 col-sm-6 ">
+      <p class="ptag1"></p><span class="country1 nowrap">France <span class="view">4260 Sale</span> </span>
+    </div>
+  </div>
+
+  <div class="row ">
+    <div class="col-lg-6 col-md-6 col-sm-6 ">
+      <p class="ptag2"></p><span class="country nowrap">Italy <span class="view">3970 Sale</span> </span>
+    </div>
+    <div  class="col-lg-6 col-md-6 col-sm-6 " >
+      <p class="ptag3"></p><span class="country1 nowrap">Italy <span class="view">3970 Sale</span> </span>
+    </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="col-lg-3 card3">
+    <img src="assets/Jana Navakova.jpg" class="rounded-circle image">
+    <h4 style="margin-left: 40px;">Nick Herasimenka</h4>
+    <p style="margin-left: 80px; color: grey;">United States</p>
+    <div  class="row">
+        <i style="margin-left: 10px;" class="fa fa-instagram" aria-hidden="true"></i>
+        <i style="margin-left: 70px;" class="fa fa-twitter" aria-hidden="true"></i>
+        <i style="margin-left: 70px;" class="fa fa-facebook" aria-hidden="true"></i>
+        <i style="margin-left: 70px;" class="fa fa-inbox" aria-hidden="true"></i>
+</div>
+<hr>
+<div class="row">
+    <div class="col-lg-10">
+    <p style="margin-left: 10px;">Our Users</p>
+</div>
+<div class="col-lg-2 pull-right">
+    <i class="fa fa-info-circle " aria-hidden="true"></i>
+</div>
+</div>
+
+
+<div class="row">
+    <div class="col-lg-3">
+        <img src="assets/Drew James.png" class="rounded-circle ">
+    </div>
+    <div class="col-lg-9">
+        <h4>Drew James</h4>
+       <div class="row"  style="margin-left: 10px;"><p>United States     mobile: 871.567.4877</p>
+       </div> 
+
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-lg-3">
+        <img src="assets/Bavid kames.png" class="rounded-circle ">
+    </div>
+    <div class="col-lg-9">
+        <h4>Bavid Kames</h4>
+       <div class="row"  style="margin-left: 10px;"><p>United States mobile: 871.567.4877</p>
+       </div> 
+
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-lg-3">
+        <img src="assets/Lavid Emes.png" class="rounded-circle ">
+    </div>
+    <div class="col-lg-9">
+        <h4>Lavid Emes</h4>
+       <div class="row"  style="margin-left: 10px;"><p>United States mobile: 871.567.4877</p>
+       </div> 
+
+    </div>
+</div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="row">
+<div class="col-lg-7  card4">
+
+<h4 style="margin-top: 10px;">Referrer</h4>
+
+    <table style="margin-top: 30px;" class="table ">
+        <thead class="thead-light">
+          <tr>
+            <th>Location</th>
+            <th>Views</th>
+            <th>Sales</th>
+            <th>Conversion</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>google.com</td>
+            <td>3746</td>
+            <td>752</td>
+            <td>43%</td>
+            <td>$19,291</td>
+          </tr>
+          <tr>
+            <td>facebook.com</td>
+            <td>8126</td>
+            <td>728</td>
+            <td>32%</td>
+            <td>$17,638</td>
+          </tr>
+          <tr>
+            <td>twitter.com</td>
+            <td>8636</td>
+            <td>694</td>
+            <td>28%</td>
+            <td>$16,218</td>
+          </tr>
+          <tr>
+            <td>Direct, Email</td>
+            <td>1173</td>
+            <td>645</td>
+            <td>24%</td>
+            <td>$14,421</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+    </div>
+    <div class="col-lg-4 card5">
+        <div class="row">
+            <div class="col-lg-8">
+           <h4> Product video</h4>
+        </div>
+     
+    </div>
+        <iframe  width="340" height="200" src="https://www.youtube.com/embed/Oy6hk6Y7VHQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+    
+    

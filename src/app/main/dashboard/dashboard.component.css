@@ -1,0 +1,88 @@
+.card {
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.card2 {
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.card3 {
+    height: 600px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.card4 {
+    height: 350px;
+    margin-left: 100px;
+    margin-top: -190px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.card5 {
+    height: 250px;
+    margin-left: 810px;
+    margin-top: -180px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.image {
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+
+
+#chart1 {
+    max-width: 250px; 
+    margin: 0 auto;
+  }
+
+
+
+  .ptag {
+    border-radius: 173px;
+    border: 2px solid rgb(85, 216, 254);
+    padding: 7px;
+    width: 21px;
+    height: 6px; 
+    padding-right: 7px;
+  }
+  .ptag1 {
+    border-radius: 173px;
+    border: 2px solid rgb(255, 218, 131);;
+    padding: 7px;
+    width: 21px;
+    height: 6px; 
+    padding-right: 7px;
+    margin-left: 20px;
+  }
+  .ptag2 {
+    border-radius: 173px;
+    border: 2px solid rgba(255, 129, 115, 1);
+    padding: 7px;
+    width: 21px;
+    height: 6px; 
+    padding-right: 7px;
+  }
+  .ptag3 {
+    border-radius: 173px;
+    border: 2px solid rgb(163, 160, 251);
+    padding: 7px;
+    width: 21px;
+    height: 6px; 
+    padding-right: 7px;
+    margin-left: 20px;
+  }
+
+
